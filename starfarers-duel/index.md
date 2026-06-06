@@ -19,6 +19,7 @@
 - [Pirates](#pirates)
 - [Phase 4 — Trade and Build](#phase-4-trade-and-build)
 - [Friend & Hero of the People](#friend-hero-of-the-people)
+- [Phase 5 — End of Turn](#phase-5--end-of-turn)
 - [Example Turn](#example-turn)
 - [Winning](#winning)
 - [Balancing for New Players](#balancing-for-new-players)
@@ -401,6 +402,14 @@ Level-2 Cannon = +2 ต่ออัน
 ### Hero of the People
 - มาจาก: ชนะ Pirate + บาง Mission Card
 - กฎเดียวกับ Friend of the People
+
+---
+
+## Phase 5 — End of Turn
+
+ทำ Phase 4 เสร็จแล้ว → **ส่งลูกเต๋าสีส้มให้คู่ต่อสู้** → ถึงตาเขาแล้ว
+
+> ถ้ายังไม่ชนะ → คู่ต่อสู้เริ่ม Phase 1 ของ Turn เขาเลย
 
 ---
 
