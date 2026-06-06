@@ -167,9 +167,9 @@
 | ![](./symbol-crow-red.png) **Red Crow** | กาสีแดง | ทิ้ง Crop 1 ต้นในนาสีแดง |
 | ![](./symbol-event.png) **Event** | ฟองคำถาม | Starting Player จั่ว Event Card |
 | ![](./symbol-joja.png) **Joja** | กล่อง Joja | จั่ว Joja Tile วางบน Location |
-| ☔ **Rain** | ฝน | พืชทุกต้นเลื่อนขึ้น 1 ช่อง |
-| ⭐ **Quality** | ดาว | พืช 1 ต้นกลายเป็น Quality |
-| 🐟 **Fish Move** | ปลาเคลื่อน | ทิ้ง Fish 2 อันขวาสุด เติมใหม่จากถุง |
+| ![](./dice-heart.png) **Rain** | ฝน | พืชทุกต้นเลื่อนขึ้น 1 ช่อง |
+| ![](./dice-stardrop.png) **Quality** | ดาว | พืช 1 ต้นกลายเป็น Quality |
+| ![](./dice-junimo.png) **Fish Move** | ปลาเคลื่อน | ทิ้ง Fish 2 อันขวาสุด เติมใหม่จากถุง |
 
 ### Season End Card
 
