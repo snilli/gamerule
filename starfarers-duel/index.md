@@ -393,15 +393,35 @@ Level-2 Cannon = +2 ต่ออัน
 
 ## Friend & Hero of the People
 
-### Friend of the People
-- มาจาก: สร้าง Trade Station (ทุกอันให้ 1 icon) + บาง Mission Card
-- คนแรกที่มี **≥ 3** รับการ์ดนี้ = **1 VP**
-- การ์ดย้ายไปหาคนที่มีมากกว่าเสมอ (ต้องมีอย่างน้อย 3)
-- ถ้าเสมอ → วางข้าง ไม่มีใครได้ VP
+การ์ด 2 ใบนี้ **= 1 VP ต่อใบ** และเป็น VP แบบพิเศษที่ **ย้ายได้** ระหว่างเกม
+ใครมี icon มากกว่า = ใครถือการ์ด = ใครได้ VP นั้น
 
-### Hero of the People
-- มาจาก: ชนะ Pirate + บาง Mission Card
-- กฎเดียวกับ Friend of the People
+---
+
+### Friend of the People — Friendship Icon
+
+**Friendship icon มาจากไหน:**
+- **สร้าง Trade Station** → ทุก Trade Station ให้ Friendship icon 1 อัน
+- **Mission Cards** บางใบให้ Friendship icon เป็น ongoing reward
+
+**กฎการ์ด:**
+- ใครมี Friendship icon **≥ 3 และมากกว่าอีกคน** → รับการ์ดนี้ได้ **1 VP**
+- ถ้าคู่ต่อสู้สร้าง Trade Station เพิ่มจนมีมากกว่า → **การ์ดย้ายไปหาเขา** พร้อม VP
+- ถ้าเสมอกัน → วางการ์ดไว้ข้างๆ ไม่มีใครได้ VP จนกว่าจะมีคนนำ
+
+> **สรุป:** Trade Stations มากกว่า = มีโอกาสถือการ์ดนี้ได้ตลอด
+
+---
+
+### Hero of the People — Fame Icon
+
+**Fame icon มาจากไหน:**
+- **ชนะ Pirate** → รับ Pirate card + Fame icons ที่แสดงบนการ์ด
+- **Mission Cards** บางใบให้ Fame icon เป็น ongoing reward
+
+**กฎการ์ด:** เหมือน Friend of the People ทุกอย่าง แต่ใช้ **Fame icon** แทน
+
+> **สรุป:** สู้ Pirate บ่อยและชนะ = มีโอกาสถือการ์ดนี้
 
 ---
 
