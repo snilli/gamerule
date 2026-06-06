@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Game Rules',
   description: 'Board game rulebooks',
+  base: '/gamerule/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
