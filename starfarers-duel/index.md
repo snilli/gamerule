@@ -364,30 +364,82 @@ Level-2 Cannon = +2 ต่ออัน
 
 ## Phase 4 — Trade and Build
 
-ทำ Trade และ Build สลับกันได้ไม่จำกัด ตราบที่มี Resource พอ
+**กฎพื้นฐาน:** ทำ Trade และ Build **สลับกันได้ในลำดับใดก็ได้ ทำได้ไม่จำกัดครั้ง** ตราบที่ยังมี Resource พอ
+
+```
+ตัวอย่าง:  Trade → Build → Build → Trade → Build  ✓  ทำได้หมด
+```
+
+---
 
 ### Trade
 
-- เยี่ยม Trade Station ของตัวเองได้ **สูงสุด 2 สถานี** ต่อ Turn
-- ห้ามกลับสถานีเดิมใน Turn เดียวกัน
-- **Planet:** ซื้อ/ขายได้เท่าที่มี
-- **Outpost:** มีข้อจำกัดตามลูกศรและ 1x/2x บนการ์ด
+**ทำได้กี่ครั้ง:** เยี่ยม Trade Station ของตัวเองได้ **สูงสุด 2 สถานี** ต่อ Turn
 
-### Build — Cost Table
+**กฎ:**
+- ห้ามกลับสถานีเดิมใน Turn เดียวกัน
+- **Planet Trade Station** → ซื้อ/ขายได้ไม่จำกัดจำนวน (เท่าที่ Cargo Bay รับ)
+- **Outpost Trade Station** → จำกัดตามลูกศรและ 1x/2x บนการ์ด
+
+ตัวอย่างจาก rulebook:
+> มี Trade Stations 3 อัน (Ore planet, Fuel planet, Merchant outpost)
+> เยี่ยม Merchant outpost 2x → ขาย Carbon 2 อัน รับ 6 Astro
+> เยี่ยม Ore planet → ซื้อ Ore 1 อัน จ่าย 3 Astro
+> **ไม่สามารถเยี่ยม Fuel planet ได้แล้ว** (ใช้สิทธิ์ 2 สถานีครบแล้ว)
+
+---
+
+### Build
+
+**ทำได้กี่ครั้ง:** ไม่จำกัด — สร้างทุกอย่างที่มี Resource พอในเทิร์นเดียว
+
+**ของที่สร้างได้และราคา:**
+
+#### 🚀 Ships — ยานในกองเรือ
 
 | สร้างอะไร | ราคา | เงื่อนไข |
 |---|---|---|
-| Colony Ship | 1 Ore + 1 Fuel + 1 Food | Hangar มีช่องว่าง |
-| Trade Ship | 1 Ore + 1 Fuel + 1 Trade good | Hangar มีช่องว่าง |
-| Level-1 Cannon | 2 Carbon | ช่อง Cannon ว่าง |
-| Level-2 Cannon | 2 Carbon + 1 Tech + คืน L1 | มี L1 active |
-| Level-1 Booster | 2 Fuel | ช่อง Booster ว่าง |
-| Level-2 Booster | 2 Fuel + 1 Tech + คืน L1 | มี L1 active |
-| Level-1 Module (Activate) | 1 Ore + 1 Carbon + 1 Food | พลิก Module คว่ำให้หงาย ใช้ได้ทันที |
-| Level-2 Module (Upgrade) | 1 Ore + 1 Carbon + 2 Food | วาง L2 ทับ L1 Active → **+1 VP** |
+| Colony Ship | 1 Ore + 1 Fuel + 1 Food | ต้องมีช่องว่างใน Hangar |
+| Trade Ship | 1 Ore + 1 Fuel + 1 Trade good | ต้องมีช่องว่างใน Hangar |
 
-> ⚠️ Hangar จุได้สูงสุด 2 ลำรวมกัน
-> ⚠️ L2 Module มีแค่ชนิดละ 1 อัน — ถ้าคนหนึ่งสร้างแล้ว อีกคนสร้างไม่ได้
+> Hangar จุได้ **สูงสุด 2 ลำรวมกัน** (Colony + Trade รวมกันไม่เกิน 2)
+
+#### 🔫 Cannons — อาวุธ (ส่งผล Combat Strength)
+
+| สร้างอะไร | ราคา | เงื่อนไข |
+|---|---|---|
+| Level-1 Cannon | 2 Carbon | ต้องมีช่อง Cannon ว่าง (3 ช่อง) |
+| Level-2 Cannon (Upgrade L1→L2) | 2 Carbon + 1 Tech + คืน L1 Cannon 1 อัน | ต้องมี L1 Cannon active อยู่ |
+
+> Combat Strength = กำลัง Cannon รวม + ลูกเต๋าน้ำเงิน
+> L1 Cannon = +1, L2 Cannon = +2
+
+#### 🚂 Boosters — เครื่องยนต์ (ส่งผล Flight Speed)
+
+| สร้างอะไร | ราคา | เงื่อนไข |
+|---|---|---|
+| Level-1 Booster | 2 Fuel | ต้องมีช่อง Booster ว่าง (3 ช่อง) |
+| Level-2 Booster (Upgrade L1→L2) | 2 Fuel + 1 Tech + คืน L1 Booster 1 อัน | ต้องมี L1 Booster active อยู่ |
+
+> Flight Speed = กำลัง Booster รวม + ลูกเต๋าส้ม
+> L1 Booster = +1, L2 Booster = +2
+
+#### ⚙️ Modules — ความสามารถพิเศษ
+
+| สร้างอะไร | ราคา | ผลทันที |
+|---|---|---|
+| Activate L1 Module | 1 Ore + 1 Carbon + 1 Food | พลิก Module คว่ำ → หงาย ใช้งานได้ทันที |
+| Upgrade เป็น L2 Module | 1 Ore + 1 Carbon + 2 Food | วาง L2 ทับ L1 Active → **+1 VP** |
+
+> L2 Module มีแค่ **1 อันต่อชนิด** — ถ้าคนหนึ่ง Upgrade แล้ว อีกคนทำไม่ได้
+> ดูรายละเอียด Module แต่ละชนิดที่ [6 Modules — สรุปรวม](#6-modules--สรุปรวม)
+
+---
+
+**สิ่งที่ต้องระวัง:**
+- Upgrade (L1 → L2) ต้องคืนของเก่าให้ Supply — ไม่ใช่แค่จ่ายเงินเพิ่ม
+- สร้าง Colony/Trade Ship ได้ก็ต่อเมื่อมีช่อง Hangar ว่าง — ถ้า Hangar เต็มต้องใช้ยานออกไปก่อน
+- ไม่มีข้อจำกัดจำนวนครั้ง Build — ถ้า Resource พอ สร้างหลายอย่างในเทิร์นเดียวได้
 
 ---
 
