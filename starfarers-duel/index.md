@@ -9,6 +9,7 @@
 - [Before You Play — 3 Things to Know](#before-you-play-3-things-to-know)
 - [Objective](#objective)
 - [Know Your Ship](#know-your-ship)
+- [6 Modules — สรุปรวม](#6-modules--สรุปรวม)
 - [Setup](#setup)
 - [Turn Order](#turn-order)
 - [Phase 1 — Start of Turn](#phase-1-start-of-turn)
@@ -87,6 +88,27 @@
 
 ---
 
+## 6 Modules — สรุปรวม
+
+Module แต่ละอันติดตั้งบนยานได้ 6 ช่อง เริ่มต้น Active 2 อัน ที่เหลือต้องสร้างก่อนใช้ได้
+
+**ราคา:**
+- Activate L1 (พลิกหงาย): 1 Ore + 1 Carbon + 1 Food
+- Upgrade เป็น L2 (วาง L2 ทับ L1): 1 Ore + 1 Carbon + 2 Food → ได้ **+1 VP**
+- L2 มีแค่ชนิดละ 1 อัน — ถ้าคนหนึ่งสร้างแล้ว อีกคนสร้างไม่ได้
+
+| Module | เมื่อ Active L1 | เมื่อ Upgrade เป็น L2 | ใช้ใน Phase ไหน |
+|---|---|---|---|
+| **Storage** | Cargo Bay จุได้ **3** ต่อ Bay (แทน 2) | Cargo Bay จุได้ **4** ต่อ Bay | ตลอดเวลา |
+| **Production** | แสดงตัวเลข 1 ค่า — เมื่อลูกเต๋าส้มตรง ผลิต Trade good +1 | แสดง **2 ตัวเลข** — trigger ได้บ่อยขึ้น | Production Phase |
+| **Science** | แสดงตัวเลข 1 ค่า — เมื่อลูกเต๋าส้มตรง ได้ Tech +1 | แสดง **2 ตัวเลข** — trigger ได้บ่อยขึ้น | Production Phase |
+| **Command** | Flight actions สูงสุด **3** (แทน 2) | Flight actions สูงสุด **4** | Flight Phase |
+| *(2 อันที่เหลือ)* | *ดูบน Overview Sheet ในกล่อง* | *ดูบน Overview Sheet* | — |
+
+> ⚠️ Production และ Science Module ของ **ทั้งสองผู้เล่น** ทำงานจากลูกเต๋าที่ทอยในรอบนั้น — ไม่ใช่แค่คนที่ทอย
+
+---
+
 ## Setup
 
 ### Assemble Your Ship (First Game Only)
@@ -150,20 +172,13 @@
 
 ### Modules Also Produce
 
-| Module | ผล |
-|---|---|
-| Production Module ที่แสดงเลขตรง | ได้ Trade good +1 |
-| Science Module ที่แสดงเลขตรง | ได้ Tech +1 |
+Production Module และ Science Module ทำงานใน Phase นี้ด้วย — ดูรายละเอียดใน [6 Modules — สรุปรวม](#6-modules--สรุปรวม)
 
 > ⚠️ Module ของ**ทั้งสองคน**ทำงานจากลูกเต๋าที่ทอยในรอบนั้น ไม่ใช่แค่คนที่ทอย
 
 ### Cargo Bay Capacity
 
-| Module | จุได้ต่อ Bay |
-|---|---|
-| ไม่มี Storage Module | 2 |
-| Level-1 Storage Module | 3 |
-| Level-2 Storage Module | 4 |
+ดูความจุตาม Storage Module ได้ที่ [6 Modules — สรุปรวม](#6-modules--สรุปรวม)
 
 ---
 
@@ -213,6 +228,8 @@ Level-2 Booster = +2 ต่ออัน
 | ไม่มี Command Module | **2** |
 | Level-1 Command Module | **3** |
 | Level-2 Command Module | **4** |
+
+→ รายละเอียด Command Module ดูที่ [6 Modules — สรุปรวม](#6-modules--สรุปรวม)
 
 ### After Flight Ends
 คู่ต่อสู้เก็บไพ่ทั้งหมดใน Flight Path กลับ สับรวมกับที่เหลือ วางคว่ำกลับที่บอร์ด
