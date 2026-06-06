@@ -331,6 +331,8 @@ Level-2 Booster = +2 ต่ออัน
 - บินต่อได้ ไม่นับเป็น Action
 - คู่ต่อสู้ดึงไพ่จาก Reserve Deck มาวางแทน (ไม่หมุนการ์ดใหม่)
 
+> ⚠️ **ถ้ามี Astro ไม่ถึง 3** → บังคับต้องสู้ (Option B) ทันที ไม่มีทางเลือก
+
 ### Option B — Fight
 
 **คำนวณ Combat Strength:**
@@ -349,6 +351,14 @@ Level-2 Cannon = +2 ต่ออัน
 - รับ Resource 1 อันตามที่คุณเลือก
 - รับ Fame icon ตามที่บนการ์ด → วาง Pirate card ในพื้นที่ตัวเอง
 - บินต่อได้ ไม่นับเป็น Action
+
+**ถ้าเงินหมด (Astro = 0 หรือน้อยกว่า 3):**
+```
+เจอ Pirate → ต้องสู้บังคับ
+  แพ้ → เสีย Booster / Cannon / Module 1 ชิ้น
+  ชนะ → ได้ Resource + Fame icon บินต่อ
+```
+ยิ่ง Astro น้อย ยิ่งเสี่ยง — วิธีแก้คือขายของที่ Trade Station ก่อนออกบิน
 
 **If the Pirate wins:**
 - Flight Phase จบทันที
@@ -380,6 +390,8 @@ Level-2 Cannon = +2 ต่ออัน
 - ห้ามกลับสถานีเดิมใน Turn เดียวกัน
 - **Planet Trade Station** → ซื้อ/ขายได้ไม่จำกัดจำนวน (เท่าที่ Cargo Bay รับ)
 - **Outpost Trade Station** → จำกัดตามลูกศรและ 1x/2x บนการ์ด
+
+> ซื้อได้เฉพาะ "เท่าที่มี Astro พอ" — ไม่มีระบบติดลบ ถ้าจ่ายไม่ได้ก็ซื้อไม่ได้
 
 ตัวอย่างจาก rulebook:
 > มี Trade Stations 3 อัน (Ore planet, Fuel planet, Merchant outpost)
